@@ -19,7 +19,7 @@ const addContact = (name, phone, email) => contacts.push(new Contact(name.value,
 
 const updContact = (index, name, phone, email, ) => {
     const contact = contacts.at(index)
-    contact.fullname= name.value
+    contact.fullName= name.value
     contact.phoneNumber= phone.value
     contact.email= email.value
 }
